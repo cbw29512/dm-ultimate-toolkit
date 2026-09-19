@@ -8,10 +8,19 @@ One hub for every D&D site Chris Wilson has shipped.
 
 D&D only. Concealed Carry Crossing and Pet Health Log are not on this site.
 
+## Hosting
+
+This site deploys on **Netlify**, same as the rest of the table tools.
+
+- Repo: [cbw29512/dm-ultimate-toolkit](https://github.com/cbw29512/dm-ultimate-toolkit)
+- Build: `npm run build`
+- Publish directory: `dist`
+- Node 22
+
 ## Iron Pit
 
 The certified combat engine is **not** in this repo. It lives in [D20-ironpit](https://github.com/cbw29512/D20-ironpit) and at [ironpit.netlify.app](https://ironpit.netlify.app). This hub links to it and ships a small starter loop only.
 
 ## Notes
 
-This is a working snapshot of the Grok App Builder copy. Marks from a batch pass stay on the device that made them (`localStorage`).
+Marks from a batch pass stay on the device that made them (`localStorage`).
