@@ -5,6 +5,8 @@ import { Shell } from "@/components/shell";
 import appCss from "../styles.css?url";
 
 const APP_NAME = "DM Ultimate Toolkit";
+const SEO_DESCRIPTION =
+  "Free Dungeon Master toolkit for D&D 5E: one hub for every tool you need to prep sessions and run the table.";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -12,8 +14,15 @@ export const Route = createRootRoute({
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: APP_NAME },
-      { name: "description", content: "DM Ultimate Toolkit — one hub for every D&D table tool." },
+      { name: "description", content: SEO_DESCRIPTION },
       { name: "theme-color", content: "#12110e" },
+      { property: "og:type", content: "website" },
+      { property: "og:site_name", content: APP_NAME },
+      { property: "og:title", content: `${APP_NAME} — Free D&D DM Tools in One Hub` },
+      { property: "og:description", content: SEO_DESCRIPTION },
+      { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: `${APP_NAME} — Free D&D DM Tools in One Hub` },
+      { name: "twitter:description", content: SEO_DESCRIPTION },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
