@@ -1,0 +1,72 @@
+{
+  "projectId": "combat-companion",
+  "checkedAt": "2026-10-15T13:50:48.347043+00:00",
+  "url": "https://cbw29512.github.io/DnD-Combat-Companion/",
+  "commit": "db9c9ff91a69e760ea7b0459888c41e7aaab342f",
+  "pullRequest": "https://github.com/cbw29512/DnD-Combat-Companion/pull/2",
+  "sourceTests": {
+    "passed": 26,
+    "failed": 0,
+    "githubChecks": "passed"
+  },
+  "assets": [
+    {
+      "url": "https://cbw29512.github.io/DnD-Combat-Companion/homebrew.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 5529,
+      "sha256": "22c2dc992304250671d923f33fb8e4e1094384489d1048e72bcf1246b6957ba3"
+    },
+    {
+      "url": "https://cbw29512.github.io/DnD-Combat-Companion/homebrew.js?v=6",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 22978,
+      "sha256": "5ac550bef09ca30df28003bf41fd98ca1ca3aadd3c7b29d39519774d109ce5c4"
+    },
+    {
+      "url": "https://cbw29512.github.io/DnD-Combat-Companion/encounter-identity.js?v=1",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 1249,
+      "sha256": "242735a540f8d7a0479c11424fe1b28b91a6f33af591093b9f16583c37504f63"
+    },
+    {
+      "url": "https://cbw29512.github.io/DnD-Combat-Companion/card-faces.js?v=1",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 1248,
+      "sha256": "acd5095cf4c240e9f64d97cb0f46130beef32ba7134ccce5f04bd3e95bf871e3"
+    }
+  ],
+  "browser": {
+    "type": "Chrome desktop",
+    "workflow": "selected flows only",
+    "viewport": "1363 x 936; no physical device testing",
+    "passed": [
+      "Two Goblins retain independent HP and conditions.",
+      "2014 and 2024 encounters are retained across edition changes and reload.",
+      "Removing and duplicating cards keeps unique visible labels; preexisting duplicate generated labels recover on load.",
+      "Reload retains Goblin HP 4/7 and Poisoned, Troll HP 64/84, and separate Manticore ammunition 21/24 and 24/24.",
+      "Saved Poisoned countdown decrements from 2 to 1 through the DM control.",
+      "Separate casters maintain Bless and Moonbeam; replacing Bless with Bane affects only its caster.",
+      "Concentration save pass maintains Bane; fail ends Bane; 24 damage displays DC 12; Moonbeam persists after reload.",
+      "Troll regeneration restores zero when manually suppressed and 10 HP when allowed.",
+      "Manticore three-spike volley shows three attack rolls and spends exactly three ammunition.",
+      "Monster and spell flips expose only the active face and move keyboard focus into it."
+    ],
+    "limitations": [
+      "Some coordinate clicks during card animations/automatic scrolling did not activate; keyboard paths and settled controls were used to verify state. Rapid touch interaction remains open.",
+      "Browser extension metadata errors were observed; no app-origin error was identified in the reviewed log sample."
+    ]
+  },
+  "remaining": [
+    "Homebrew create/edit/import/export and backup recovery",
+    "Physical Chromebook/tablet and mobile layout/touch QA",
+    "Reduced motion, print and full keyboard/accessibility audit",
+    "Player display remains unimplemented",
+    "Complete catalog/source/rule coverage and offline behavior"
+  ],
+  "fullAuditCompleted": false,
+  "ironPit": "excluded"
+}

@@ -67,3 +67,25 @@ not establish equivalent mechanics or justify feature removal.
 - Seven hub registry/backup/audit tests pass. Browser workflow review is pending.
 
 Companion evidence: https://github.com/cbw29512/DnD-Combat-Companion/pull/1
+
+## Combat Companion workflow batch — 15 October 2026
+
+- Exercised selected live desktop flows: independent monster HP and conditions,
+  2014/2024 encounter retention, reload, timed conditions, concentration by caster,
+  Troll regeneration under manual suppression, and Manticore ammunition.
+- Reproduced duplicate generated labels after removal/addition. Fixed both add
+  paths, made instance suffixes visible, and repaired saved duplicates while
+  preserving IDs, HP, conditions, timers, and resources.
+- Rotated-away monster and spell faces now leave keyboard navigation and the
+  accessibility tree. Live keyboard checks verified focus moves to the active face.
+- All 26 source checks and GitHub checks passed; PR #2 was merged. GitHub Pages
+  deployment succeeded, and the changed labels, save recovery, timer and card
+  focus behavior were checked on the deployed page. Four initial assets pass.
+- Some coordinate clicks during animations/automatic scrolling did not activate;
+  settled controls and keyboard paths verified state. Rapid touch behavior needs
+  a separate pass. No physical Chromebook/tablet or mobile certification is claimed.
+- Homebrew backups, full accessibility, offline behavior, catalog/rule coverage,
+  and the unimplemented player display remain open. Full audits complete: zero.
+
+Evidence: [recorded workflow results](combat-companion-audit-2026-10-15.json)
+and https://github.com/cbw29512/DnD-Combat-Companion/pull/2.
