@@ -1,9 +1,10 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { cn } from "@/lib/utils";
+import { Hexagon } from "lucide-react";
 
 const NAV = [
-  { to: "/", label: "Hub", match: (p: string) => p === "/" },
-  { to: "/batch", label: "Batch", match: (p: string) => p.startsWith("/batch") },
+  { to: "/", label: "Toolkit", match: (p: string) => p === "/" },
+  { to: "/batch", label: "Review projects", match: (p: string) => p.startsWith("/batch") },
 ] as const;
 
 export function Shell({ children }: { children: React.ReactNode }) {
@@ -19,9 +20,10 @@ export function Shell({ children }: { children: React.ReactNode }) {
       </a>
       <header className="sticky top-0 z-20 border-b border-line bg-bg/92 backdrop-blur-sm">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3">
-          <Link to="/" className="flex items-baseline gap-2 no-underline">
-            <span className="font-display text-lg font-semibold tracking-tight text-fg">DM Ultimate Toolkit</span>
-            <span className="text-xs text-subtle max-sm:hidden">One door. Every D&D site.</span>
+          <Link to="/" className="flex items-center gap-3 no-underline">
+            <span className="grid size-9 place-items-center rounded-lg border border-warn/40 text-[#d9b575]"><Hexagon className="size-5" aria-hidden="true" /></span>
+            <span><span className="block font-display text-base font-semibold tracking-tight text-fg">DM Ultimate Toolkit</span>
+            <span className="block text-[9px] uppercase tracking-[0.17em] text-muted">A place for every adventure</span></span>
           </Link>
           <nav aria-label="Primary" className="flex items-center gap-1">
             {NAV.map((item) => {
@@ -32,6 +34,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
                   to={item.to}
                   className={cn(
                     "inline-flex h-11 items-center rounded-[var(--radius-sm)] px-3 text-sm no-underline",
+                    item.to === "/" && "max-sm:hidden",
                     active ? "bg-raised text-fg" : "text-muted hover:bg-raised hover:text-fg",
                   )}
                 >

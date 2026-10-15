@@ -3,6 +3,7 @@ node_modules
 .grok
 .netlify
 dist
+review-dist
 screenshots
 artifacts
 *.log
