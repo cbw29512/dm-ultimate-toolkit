@@ -89,3 +89,8 @@ Companion evidence: https://github.com/cbw29512/DnD-Combat-Companion/pull/1
 
 Evidence: [recorded workflow results](combat-companion-audit-2026-10-15.json)
 and https://github.com/cbw29512/DnD-Combat-Companion/pull/2.
+
+## Expanded re-audit
+
+The [15 October re-audit](reaudit-2026-10-15.md) records the current delivery,
+source checks, selected live workflows, delivered repairs and remaining work.
