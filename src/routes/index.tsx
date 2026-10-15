@@ -5,6 +5,7 @@ import { ToolkitHero } from "@/components/toolkit-hero";
 import { ToolkitCard } from "@/components/toolkit-card";
 import { ToolkitWorkbench } from "@/components/toolkit-workbench";
 import { ToolkitSources } from "@/components/toolkit-sources";
+import { ToolkitAudit } from "@/components/toolkit-audit";
 import { TOOLKIT_PROJECTS, filterProjects } from "@/lib/toolkit-projects";
 import { TOOLKIT_CATEGORIES, type ToolkitCategory } from "@/lib/toolkit-schema";
 import { BMC_URL } from "@/lib/money";
@@ -43,6 +44,7 @@ function HubHome() {
         <p className="toolkit-boundary">Linked tools open in a new tab and keep their own saves. “Project source” entries need setup or further work. Iron Pit is reserved as a placeholder.</p>
       </section>
       <ToolkitWorkbench />
+      <ToolkitAudit />
       <ToolkitSources />
       <footer className="toolkit-footer"><div><strong>Made for the stories you haven't told yet.</strong><p>An independent, unofficial D&D toolkit. Not affiliated with Wizards of the Coast.</p></div><a href={BMC_URL} target="_blank" rel="noopener noreferrer">Support the toolkit ↗</a></footer>
     </div>

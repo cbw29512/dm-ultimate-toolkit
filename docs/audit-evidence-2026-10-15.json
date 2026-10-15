@@ -1,0 +1,1092 @@
+{
+  "checkedAt": "2026-10-15T12:32:22.996642+00:00",
+  "scope": "Linked site entry HTML and initial same-origin script/style delivery only",
+  "browserVerified": false,
+  "records": [
+    {
+      "id": "combat-companion",
+      "title": "Combat Companion",
+      "url": "https://cbw29512.github.io/DnD-Combat-Companion/",
+      "status": 200,
+      "final_url": "https://cbw29512.github.io/DnD-Combat-Companion/",
+      "content_type": "text/html; charset=utf-8",
+      "size": 113230,
+      "page_title": "D&D Combat Companion \u2014 Tablet v2",
+      "error_shell": false,
+      "elapsed_seconds": 10.69,
+      "assets": [
+        {
+          "url": "https://cbw29512.github.io/DnD-Combat-Companion/homebrew.css?v=3",
+          "status": 200,
+          "size": 5529,
+          "type": "text/css; charset=utf-8",
+          "sha256": "22c2dc992304250671d923f33fb8e4e1094384489d1048e72bcf1246b6957ba3"
+        },
+        {
+          "url": "https://cbw29512.github.io/DnD-Combat-Companion/homebrew.js?v=6",
+          "status": 200,
+          "size": 22978,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "5ac550bef09ca30df28003bf41fd98ca1ca3aadd3c7b29d39519774d109ce5c4"
+        }
+      ]
+    },
+    {
+      "id": "blocks",
+      "title": "DND Blocks",
+      "url": "https://cbw29512.github.io/DNDblocksbattlemaps/",
+      "status": 200,
+      "final_url": "https://cbw29512.github.io/DNDblocksbattlemaps/",
+      "content_type": "text/html; charset=utf-8",
+      "size": 3017,
+      "page_title": "DND Blocks Battle Maps | Free 3D Cube Battle Map Builder",
+      "error_shell": false,
+      "elapsed_seconds": 9.97,
+      "assets": [
+        {
+          "url": "https://cbw29512.github.io/DNDblocksbattlemaps/src/styles/base.css?v=b5ed9895f361",
+          "status": 200,
+          "size": 3816,
+          "type": "text/css; charset=utf-8",
+          "sha256": "8315b6149fafb913159f62f2858cc94f685a5f249cb7fa319a80e5f3117ce7f1"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDblocksbattlemaps/src/styles/home.css?v=b5ed9895f361",
+          "status": 200,
+          "size": 10410,
+          "type": "text/css; charset=utf-8",
+          "sha256": "92ae072a27d2a06b1ce4e40d1122f095ab5cedb2462112e6223f2c744acff807"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDblocksbattlemaps/src/styles/builder.css?v=drag-shadow-20261010",
+          "status": 200,
+          "size": 21199,
+          "type": "text/css; charset=utf-8",
+          "sha256": "d23a729ce7bcd78fc0c3ff6a3d423d947687c7c0e8a5ade9c3e6cd0915a10b7a"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDblocksbattlemaps/web/main.js?v=drag-shadow-20261010",
+          "status": 200,
+          "size": 2501,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "1f2bec88f53e90775c5edfe9bd6beaf6f00e91926277c5866e412fe41f9e7088"
+        }
+      ]
+    },
+    {
+      "id": "dice",
+      "title": "Nothing But a Dice Roller",
+      "url": "https://nothingbutattrpgdiceroller.netlify.app/",
+      "status": 200,
+      "final_url": "https://nothingbutattrpgdiceroller.netlify.app/",
+      "content_type": "text/html; charset=UTF-8",
+      "size": 15083,
+      "page_title": "Free 3D TTRPG Dice Roller | Nothing But A Dice Roller",
+      "error_shell": false,
+      "elapsed_seconds": 11.06,
+      "assets": [
+        {
+          "url": "https://nothingbutattrpgdiceroller.netlify.app/styles.css",
+          "status": 200,
+          "size": 8825,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "677f7a66029767d7346ef99494c0d3cd5213d844b0356dfa7624defd22156e56"
+        },
+        {
+          "url": "https://nothingbutattrpgdiceroller.netlify.app/themes.css",
+          "status": 200,
+          "size": 4368,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "d11f6870fe00bc745f5e4a859472d19b99ff69eebf5181cc6025a7d0bbc06bf3"
+        },
+        {
+          "url": "https://nothingbutattrpgdiceroller.netlify.app/account.css",
+          "status": 200,
+          "size": 3784,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "d30416f95b0c441fdde303cb67684891ee1ea064db11e612bb45f082dca8d251"
+        },
+        {
+          "url": "https://nothingbutattrpgdiceroller.netlify.app/mobile.css",
+          "status": 200,
+          "size": 1958,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "0bcb76d978cdd9d3629234c2a129c43049c61dbcb560b6429620ba421a8ac2fd"
+        },
+        {
+          "url": "https://nothingbutattrpgdiceroller.netlify.app/community.css",
+          "status": 200,
+          "size": 2419,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "f34a74dd472ae00efa0b727952972851c11f52778e940683610b27ef98eca1fd"
+        },
+        {
+          "url": "https://nothingbutattrpgdiceroller.netlify.app/custom.css",
+          "status": 200,
+          "size": 8038,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "4c9e4ee57f3b22ca2f8b1590144b46e3733e0d7bc0fb842f9ed533be8c38f6e8"
+        },
+        {
+          "url": "https://nothingbutattrpgdiceroller.netlify.app/js/app.js",
+          "status": 200,
+          "size": 319351,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "f6ee77d2658b44748f27d6b0f69213ab9fb6bbd2b38b8cd357cb5a2a81914e60"
+        }
+      ]
+    },
+    {
+      "id": "healing",
+      "title": "Cleric in a Box",
+      "url": "https://cbw29512.github.io/healingbox/",
+      "status": 200,
+      "final_url": "https://cbw29512.github.io/healingbox/",
+      "content_type": "text/html; charset=utf-8",
+      "size": 5039,
+      "page_title": "Cleric in a Box | Shared D&D Healing & Scroll Tracker",
+      "error_shell": false,
+      "elapsed_seconds": 10.01,
+      "assets": [
+        {
+          "url": "https://cbw29512.github.io/healingbox/style.css",
+          "status": 200,
+          "size": 8467,
+          "type": "text/css; charset=utf-8",
+          "sha256": "653f9381fa61030f9a1a5fc0af72886ef7872a5bcb02d82429f0a9821cf7b28c"
+        },
+        {
+          "url": "https://cbw29512.github.io/healingbox/spell-reference.css",
+          "status": 200,
+          "size": 2220,
+          "type": "text/css; charset=utf-8",
+          "sha256": "1de1279b30c2498db0a37b7c4dcff4f65908a9974752b31fd0e15800e5289e48"
+        },
+        {
+          "url": "https://cbw29512.github.io/monstercardforge/shared/design-system.css",
+          "status": 200,
+          "size": 6032,
+          "type": "text/css; charset=utf-8",
+          "sha256": "2f6e540fb569b3d1944fee9b400cdea57a3b467a33cb61dafbc7e0bdb7510218"
+        },
+        {
+          "url": "https://cbw29512.github.io/monstercardforge/shared/dmforge-store.js",
+          "status": 200,
+          "size": 12335,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "7e4d9f247321bdaa8536a9e4f648d7d4b89de0224b4d215a2080504d4f247c8c"
+        },
+        {
+          "url": "https://cbw29512.github.io/healingbox/boot.js",
+          "status": 200,
+          "size": 1747,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "b15a4d63afa9e45c2c1b2b3354b9f1dfde52b7ff55d44d33d86ab0a09f8ca94b"
+        },
+        {
+          "url": "https://cbw29512.github.io/healingbox/spell-reference.js",
+          "status": 200,
+          "size": 6438,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "a3acd135314c11cd1d3e75be0f4f1e528b599fe46c140c62d33e92012be6eabb"
+        },
+        {
+          "url": "https://cbw29512.github.io/healingbox/dmforge-adapter.js",
+          "status": 200,
+          "size": 4420,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "40f5b4ec0e743d99934bcae77e317f54455db7daedb53ff2865eac2f8b22dd41"
+        }
+      ]
+    },
+    {
+      "id": "character-forge",
+      "title": "Character Forge",
+      "url": "https://characterforgerdnd.netlify.app/",
+      "status": 200,
+      "final_url": "https://characterforgerdnd.netlify.app/",
+      "content_type": "text/html; charset=UTF-8",
+      "size": 13847,
+      "page_title": "D&D 5e Character Forge | Rules-Validated Pregen Generator",
+      "error_shell": false,
+      "elapsed_seconds": 6.88,
+      "assets": [
+        {
+          "url": "https://characterforgerdnd.netlify.app/styles/base.css",
+          "status": 200,
+          "size": 2140,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "12805eaa29d93283ce7b457186fc96ca1ee9e160b6edd91d86653c3290b47ab9"
+        },
+        {
+          "url": "https://characterforgerdnd.netlify.app/styles/layout.css",
+          "status": 200,
+          "size": 8484,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "d11f03aad5242310b5e86d3ce1ce6ec4fc8f437f0b1aadba26b77fb2650c85bb"
+        },
+        {
+          "url": "https://characterforgerdnd.netlify.app/styles/components.css",
+          "status": 200,
+          "size": 9166,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "d6810789c19e95e89822fc6df6f747121d922145d863cc7465ff949b1850a5c9"
+        },
+        {
+          "url": "https://characterforgerdnd.netlify.app/styles/library.css",
+          "status": 200,
+          "size": 4478,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "94f5438c726bf9ecd5d96bc22de96cdf053690a541f4c5017837246437199f41"
+        },
+        {
+          "url": "https://characterforgerdnd.netlify.app/styles/spells.css",
+          "status": 200,
+          "size": 7181,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "fb85f13f53710571bdcfeb430cd743b07a89597eece3bacacc3535f3a51b3d3f"
+        },
+        {
+          "url": "https://characterforgerdnd.netlify.app/styles/spell-reference.css",
+          "status": 200,
+          "size": 1916,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "186d06d22e83a0072d7b06f0a44ad30c18cb2e78cda28fb9d4a8448ceba81124"
+        },
+        {
+          "url": "https://characterforgerdnd.netlify.app/styles/reference.css",
+          "status": 200,
+          "size": 1120,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "fd8b4915c8342a9121b301ed5a22e0f689c093369b9b42d5b15655b9e204f073"
+        },
+        {
+          "url": "https://characterforgerdnd.netlify.app/styles/audit.css",
+          "status": 200,
+          "size": 1973,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "71b8cb54c105fc32b7c9edee37b4a37709dd9d5b7477e7764482425289922869"
+        },
+        {
+          "url": "https://characterforgerdnd.netlify.app/styles/responsive.css",
+          "status": 200,
+          "size": 11703,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "f500d1e2025c1383784822e37e908c79004d67887661a873d9719e069e7b71de"
+        },
+        {
+          "url": "https://characterforgerdnd.netlify.app/styles/landing.css",
+          "status": 200,
+          "size": 15182,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "b67e5270e096257ef66aec8ad9d7b49ceda763714fc2e446d76523b7cf9c4d91"
+        },
+        {
+          "url": "https://characterforgerdnd.netlify.app/styles/readability.css",
+          "status": 200,
+          "size": 4628,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "02c158eafb1112cb62470a29209dd535d57ed59f45d7d1f1bb89102814b5c15b"
+        },
+        {
+          "url": "https://characterforgerdnd.netlify.app/src/app.js",
+          "status": 200,
+          "size": 16821,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "961fc42a6a04b1daeb1931635b885fba42a3df910df5de228d11afdaef0479f6"
+        },
+        {
+          "url": "https://characterforgerdnd.netlify.app/src/ui/premium-copy-guard.js",
+          "status": 200,
+          "size": 1873,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "119dfa0ac2a37c6366d49c44a86248a9e422b853d9ca42b7b7f69447ebfcc5e4"
+        }
+      ]
+    },
+    {
+      "id": "dm-forge",
+      "title": "DM Forge",
+      "url": "https://cbw29512.github.io/monstercardforge/",
+      "status": 200,
+      "final_url": "https://cbw29512.github.io/monstercardforge/",
+      "content_type": "text/html; charset=utf-8",
+      "size": 24383,
+      "page_title": "DM Forge \u2014 One-Stop GM Tools for D&amp;D and Cthulhu",
+      "error_shell": false,
+      "elapsed_seconds": 10.34,
+      "assets": [
+        {
+          "url": "https://cbw29512.github.io/monstercardforge/shared/design-system.css",
+          "status": 200,
+          "size": 6032,
+          "type": "text/css; charset=utf-8",
+          "sha256": "2f6e540fb569b3d1944fee9b400cdea57a3b467a33cb61dafbc7e0bdb7510218"
+        }
+      ]
+    },
+    {
+      "id": "rules-cards",
+      "title": "Rules & Roll Cards",
+      "url": "https://cbw29512.github.io/DungeonCards/?system=dnd&page=compendium",
+      "status": 200,
+      "final_url": "https://cbw29512.github.io/DungeonCards/?system=dnd&page=compendium",
+      "content_type": "text/html; charset=utf-8",
+      "size": 1354,
+      "page_title": "Rules Compendium &amp; Roll Cards | DM Forge",
+      "error_shell": false,
+      "elapsed_seconds": 10.24,
+      "assets": [
+        {
+          "url": "https://cbw29512.github.io/DungeonCards/assets/index-BFjvVdLi.js",
+          "status": 200,
+          "size": 3000000,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "86710b15936992890b2d487646e2a5877a25c89b4ea89f79a6314ea7ffb95995"
+        },
+        {
+          "url": "https://cbw29512.github.io/DungeonCards/assets/index-CXGI6v9O.css",
+          "status": 200,
+          "size": 231893,
+          "type": "text/css; charset=utf-8",
+          "sha256": "ba17e327cce68bb2da775a45b3303c244c70ec448ba6442099c6142e606175cc"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-cards",
+      "title": "Dungeon Cards",
+      "url": "https://cbw29512.github.io/DNDCards/",
+      "status": 200,
+      "final_url": "https://cbw29512.github.io/DNDCards/",
+      "content_type": "text/html; charset=utf-8",
+      "size": 2898,
+      "page_title": "Dungeon Cards",
+      "error_shell": false,
+      "elapsed_seconds": 9.97,
+      "assets": [
+        {
+          "url": "https://cbw29512.github.io/DNDCards/styles.css",
+          "status": 200,
+          "size": 20885,
+          "type": "text/css; charset=utf-8",
+          "sha256": "57e830395bb0606cda62e04cea386d0e3eeb5d9b2658dbe20c6b0d635003c058"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/landing-responsive.css",
+          "status": 200,
+          "size": 200,
+          "type": "text/css; charset=utf-8",
+          "sha256": "653cfeaa7c6adbaaa50bef3f51da6f913f08e794c6529860821e82fb7d9622a7"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/library.css",
+          "status": 200,
+          "size": 5970,
+          "type": "text/css; charset=utf-8",
+          "sha256": "380305ac54dfc774ccd6058d19162268d9af8bd214ad0035024975415f316ad7"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/combat.css",
+          "status": 200,
+          "size": 2131,
+          "type": "text/css; charset=utf-8",
+          "sha256": "708a24a60daf45adfae44162b35d6ba27d938dc2823a3f74ca146f16fcbefeed"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/spell-controls.css?v=spell-upcast-1",
+          "status": 200,
+          "size": 571,
+          "type": "text/css; charset=utf-8",
+          "sha256": "cd5339678af812535ff1717529dba9df0b96e5ef3e84f42865a063f86ca61f0d"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/card-readability.css?v=rules-ui-audit-1",
+          "status": 200,
+          "size": 2573,
+          "type": "text/css; charset=utf-8",
+          "sha256": "159e217466acbb19efc68a44af95d2662c59bb5aecf28126ef32017d544cb9fe"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/initiative-ready.css?v=ready-action-1",
+          "status": 200,
+          "size": 1630,
+          "type": "text/css; charset=utf-8",
+          "sha256": "2fc68e44c9b5eb27634b924f47cd724527eb36a37ca13da464b6c55b5d87d57f"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/catalog-expansion.css?v=rules-ui-audit-1",
+          "status": 200,
+          "size": 5562,
+          "type": "text/css; charset=utf-8",
+          "sha256": "ba4cef581b30248ffc718a2aab6cb9a9d2f293f1eda7784f7dece4b2e6f28321"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/hero-roster.css?v=rules-ui-audit-1",
+          "status": 200,
+          "size": 3245,
+          "type": "text/css; charset=utf-8",
+          "sha256": "1d28fc06a0d53a0382c63a5b06f910a36407bd271152f4179d3c75492dc385e1"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/game-board.css?v=unified-board-2",
+          "status": 200,
+          "size": 6899,
+          "type": "text/css; charset=utf-8",
+          "sha256": "64f5b64f93ebe1de36d7bd1467ff79c7611235cfa44b2f2def7ccf06b2bf5fe2"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/card-faces.css?v=card-import-1",
+          "status": 200,
+          "size": 8107,
+          "type": "text/css; charset=utf-8",
+          "sha256": "09c18a6e9f8ff3cd4c93f06985fe993dfd751e738b5aa8702cb71e5628e66cb9"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/rpg.css?v=high-contrast-2",
+          "status": 200,
+          "size": 12994,
+          "type": "text/css; charset=utf-8",
+          "sha256": "1ddd34c8e45b8c878a8db425c94fce911bcd62d1c95abb40b9f6f46983d27c01"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/pregen-pack.css?v=rules-ui-audit-1",
+          "status": 200,
+          "size": 7473,
+          "type": "text/css; charset=utf-8",
+          "sha256": "a1ce81ab657a4ad4b2c7df6f356ad8c36b59cc22ba6f0e45a831e9eb2b5eeb5c"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/audit-polish.css?v=rules-ui-audit-1",
+          "status": 200,
+          "size": 3995,
+          "type": "text/css; charset=utf-8",
+          "sha256": "d619f276b0c2b9f5a63d95eb77c6489ca1aa025f2530efb37b6073c37ebacadc"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDCards/src/main.js?v=rules-ui-audit-1",
+          "status": 200,
+          "size": 11983,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "1c6002db8f309ba0b241a5389f23e2b132b0dafc41826d298e2679cd627f8859"
+        }
+      ]
+    },
+    {
+      "id": "living-table",
+      "title": "The Living Table",
+      "url": "https://cbw29512.github.io/DNDWebTTRPG/",
+      "status": 200,
+      "final_url": "https://cbw29512.github.io/DNDWebTTRPG/",
+      "content_type": "text/html; charset=utf-8",
+      "size": 5841,
+      "page_title": "The Living Table \u2014 Dungeon Master",
+      "error_shell": false,
+      "elapsed_seconds": 3.49,
+      "assets": [
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/styles.css?v=board-first-live-1",
+          "status": 200,
+          "size": 8671,
+          "type": "text/css; charset=utf-8",
+          "sha256": "aa1d79343b9f59d1bf38913a18ffc09ed858db9115db56747bee5ba4c7d4bafe"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/player-board.css?v=board-first-live-1",
+          "status": 200,
+          "size": 3220,
+          "type": "text/css; charset=utf-8",
+          "sha256": "5344d4ff1b6be98307ea5e54762cb993fff43e68946b4bdf7a1b9452cd5718cc"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/compact-stacks.css?v=board-first-live-1",
+          "status": 200,
+          "size": 4300,
+          "type": "text/css; charset=utf-8",
+          "sha256": "8d3ffd5655976d64b4c1a350740c176a41d6c4e0a88a3dc841c988d8ca440d6e"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/stack-drawer-layer.css?v=equal-board-slots-2",
+          "status": 200,
+          "size": 1020,
+          "type": "text/css; charset=utf-8",
+          "sha256": "0bd92a742fd3ef37d98d0c5a155151eb3ba270de0b7a6239eaef39ac70c68131"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/card-modal.css?v=board-first-live-1",
+          "status": 200,
+          "size": 3336,
+          "type": "text/css; charset=utf-8",
+          "sha256": "2b4da7abb249eea6b339f61d843aa3cb117f09fcfd2e70ec27448ea97e890c1f"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/workspace-polish.css?v=board-first-live-1",
+          "status": 200,
+          "size": 2909,
+          "type": "text/css; charset=utf-8",
+          "sha256": "51fea8e10f8688d0710a72fc69303a17a7d6b7053c1d0a8e7f0bbae7668b63a4"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/quest-tracker.css?v=board-first-live-1",
+          "status": 200,
+          "size": 2330,
+          "type": "text/css; charset=utf-8",
+          "sha256": "51fd5f7f0c57a184e5c9e16fdadb61d13c2ac05ba79e47379e21d8a8b932d596"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/encounter-scale.css?v=board-first-live-1",
+          "status": 200,
+          "size": 1894,
+          "type": "text/css; charset=utf-8",
+          "sha256": "0b0a45336135e715ba3f8623115fed5098383e3ff0504bcf9466874945730c0a"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/player-ready.css?v=board-first-live-1",
+          "status": 200,
+          "size": 8014,
+          "type": "text/css; charset=utf-8",
+          "sha256": "995d4288ebefc199316be5996586c087f5dfb266e021fe02383787e46ef5963f"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/adventure-loader.css?v=board-first-live-1",
+          "status": 200,
+          "size": 1661,
+          "type": "text/css; charset=utf-8",
+          "sha256": "668e5ca4a651fa2bcba4b3e8f256ef3a50503bb194167841cb85a4341262e1f0"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/library-hub.css?v=board-first-live-1",
+          "status": 200,
+          "size": 4657,
+          "type": "text/css; charset=utf-8",
+          "sha256": "a5469d4ffadafce2f7afabc37f111b220bc6a3ecd854d13162de70562ea86d59"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/player-library-filter.css?v=board-first-live-1",
+          "status": 200,
+          "size": 891,
+          "type": "text/css; charset=utf-8",
+          "sha256": "0fd18c98a509dfaf8c7bc8240053d4637b2ae02368b6cc3c82c0fed44b29a507"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/combat-card-library.css?v=board-first-live-1",
+          "status": 200,
+          "size": 5311,
+          "type": "text/css; charset=utf-8",
+          "sha256": "c333ce1612d94bdf0bcda3588c42b9a4bb63fe59b5346702772dbf6d8874e9d8"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/card-quality-audit.css?v=board-first-live-1",
+          "status": 200,
+          "size": 1323,
+          "type": "text/css; charset=utf-8",
+          "sha256": "a72d9d1ad962f417ef0996f5c4d6dcf264076437b9d656a618c5d525f2062ba4"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/local-session.css?v=board-first-live-1",
+          "status": 200,
+          "size": 1119,
+          "type": "text/css; charset=utf-8",
+          "sha256": "5915c74c842288d96a94dd397efe397559ef9004f4a04240ee0f13348822d322"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/scene-runtime.css?v=board-first-live-1",
+          "status": 200,
+          "size": 1720,
+          "type": "text/css; charset=utf-8",
+          "sha256": "890b58f1eff7d4b0c61e333c5855116a4bf40cd2cb1d95cdb6ecf48bb3c2c6bd"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/pregen-character-card.css?v=board-first-live-1",
+          "status": 200,
+          "size": 3969,
+          "type": "text/css; charset=utf-8",
+          "sha256": "cc27e462ee358cfe105897e6cfe8eabb4f7d1b5b1268e470a24663cd5c2914b0"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/mobile-responsive.css?v=board-first-live-1",
+          "status": 200,
+          "size": 7712,
+          "type": "text/css; charset=utf-8",
+          "sha256": "8cb72cfedb2a2701d432843ca29a8ad7a7bab6ff3015f944e070f277a2ffaa01"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/strict-role-boundary.css?v=board-first-live-1",
+          "status": 200,
+          "size": 1675,
+          "type": "text/css; charset=utf-8",
+          "sha256": "3d85e9c3696b158a5ed0a1f52a62869afa9760a71a0602c9f176514463723dc6"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/adventure-state-board.css?v=board-first-live-1",
+          "status": 200,
+          "size": 2080,
+          "type": "text/css; charset=utf-8",
+          "sha256": "114adbc1872d53abf190965e7979f6d6a4989cb14ab91e6aeabef661fe8e27f6"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/live-play-priority.css?v=board-first-live-3",
+          "status": 200,
+          "size": 4456,
+          "type": "text/css; charset=utf-8",
+          "sha256": "4f859dceadb46968c4c8339878c562c556e8ee84cd3356552b2dbb19ec194bc7"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/prepared-play-board.css?v=equal-board-slots-2",
+          "status": 200,
+          "size": 5736,
+          "type": "text/css; charset=utf-8",
+          "sha256": "16606ab0dfe98aef22c177b082bfd4e9a78c459354fb2f8432cb26133459f263"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/wishing-cake-visual.css?v=visual-overhaul-1",
+          "status": 200,
+          "size": 13819,
+          "type": "text/css; charset=utf-8",
+          "sha256": "18f7f92b541d7ebe301b88aac08e098d067596419f1bdd6b56c736da552f351b"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/stolen-wish-art.css?v=stolen-wish-art-2",
+          "status": 200,
+          "size": 698,
+          "type": "text/css; charset=utf-8",
+          "sha256": "40328e5e6097703b40b7e5ecfb189a5d6cdbff65a7f480dd80a8280faf73fbec"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/combat-shortcuts.css?v=rules-cards-1",
+          "status": 200,
+          "size": 1525,
+          "type": "text/css; charset=utf-8",
+          "sha256": "d6f97f0b4f84f2c87615d8233cb197d97fd9762dd2e7afaab47c75512179faa1"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/combat-rounds.css?v=party-combat-1",
+          "status": 200,
+          "size": 1351,
+          "type": "text/css; charset=utf-8",
+          "sha256": "afba0126d4de350d3ff9d0c51f182f28ae131ebb5051deb3927af37d2a4d9686"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/site-shell.css?v=site-shell-1",
+          "status": 200,
+          "size": 6949,
+          "type": "text/css; charset=utf-8",
+          "sha256": "bfdb9c7a320bc44609d9aae3c7e7ead2d373c9f1d5d65017314ac17873888b9a"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/live-session.css?v=live-multiplayer-1",
+          "status": 200,
+          "size": 4182,
+          "type": "text/css; charset=utf-8",
+          "sha256": "341c29f8d907758bf839ea49eba29f5a0afc3c48a011506f6fbd4bf4585ef41f"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/live-session-guide.css?v=playability-audit-1",
+          "status": 200,
+          "size": 1449,
+          "type": "text/css; charset=utf-8",
+          "sha256": "8f077225ec11e360a3e28685a5406079585a7a723fcab0c83a57ccb2fbecba95"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/card-stability.css?v=card-stability-1",
+          "status": 200,
+          "size": 2751,
+          "type": "text/css; charset=utf-8",
+          "sha256": "9b762fc09249eabd07d95d1708392b12375bd15a48481903d07865ebf98eb2ca"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/adventure-loader.js?v=board-first-live-1",
+          "status": 200,
+          "size": 6058,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "9079ed73da82f9513980d78c111e9991b775dd98475ce773a1163447f9e489ff"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/local-session.js?v=board-first-live-1",
+          "status": 200,
+          "size": 6411,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "11b1aabefa32a0c99d400f0db54b6be02bfc3b78df28e353bf05bff5ebb40277"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/scene-runtime.js?v=board-first-live-1",
+          "status": 200,
+          "size": 6612,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "436da48f6bc7346a21c1e26e55aadf41ac9acda17e1f043a4f8843e367bc48f1"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/quest-tracker.js?v=board-first-live-1",
+          "status": 200,
+          "size": 6447,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "cfa62530bb2110c307f7e2581549af386c5312f4be0e6fe7252cc3531ee5d6c2"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/card-modal.js?v=card-stability-1",
+          "status": 200,
+          "size": 7521,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "a16733fe15bbbfb97436164e43af866266f51a4502c9c3df99f56607a233afcb"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/workspace-controls.js?v=board-first-live-1",
+          "status": 200,
+          "size": 1277,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "5748c0e3706f96daa6961d08a774ff7721b998010750689ad7e65177520fe40c"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/stack-drawer-layer.js?v=equal-board-slots-2",
+          "status": 200,
+          "size": 2185,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "17078421e30bb74f7efc98565d73fd4900b0e41076411f2f830f09da9fa5d8d5"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/player-ready.js?v=board-first-live-1",
+          "status": 200,
+          "size": 12249,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "53b786c11ffb7ab26ff69457f2049e15f81088fdecf42bc2542f7479f71905e9"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/player-session-bridge.js?v=board-first-live-1",
+          "status": 200,
+          "size": 4568,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "63bfba012df8c47a7fce0e5abbc27442c2dca53db6f58ca97863b68a38789fdc"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/pregen-character-loader.js?v=board-first-live-1",
+          "status": 200,
+          "size": 5533,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "c4cf82466c93c5d962231ee53b56e32f1e071d377c2fa25851303fe3dbae31fb"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/library-hub.js?v=board-first-live-1",
+          "status": 200,
+          "size": 12950,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "891d43b1e8b2fe459854c197d7e0dd396991abd44542103871ebb4b4c4f1a1bf"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/player-library-filter.js?v=board-first-live-1",
+          "status": 200,
+          "size": 3905,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "eb0858f45e23fb2a6960d9b65f64970b0d9f28f8f98cee2308d383abbf2fce42"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/combat-card-library.js?v=board-first-live-1",
+          "status": 200,
+          "size": 10485,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "41dcfc51283ee951cd23cedb100369bc238e665966ca2fda1a06f4dc5a4b19ec"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/card-quality-audit.js?v=board-first-live-1",
+          "status": 200,
+          "size": 5282,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "74c35b729550c1a53b182c89aa020c0f0fe09075c753a79a09acdbd7a4ef9830"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/strict-role-boundary.js?v=board-first-live-1",
+          "status": 200,
+          "size": 2594,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "5de28dee1f9b6767ca40798e8eb16e9e90f5acb643f469b4473e71370811c058"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/prepared-play-board.js?v=prepared-play-board-2",
+          "status": 200,
+          "size": 8010,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "397fa6b80b43f42c787aa1af2989818cca90f0c5a504d83f5461816d2fc222fa"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/wishing-cake-visual.js?v=visual-overhaul-1",
+          "status": 200,
+          "size": 7144,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "a2344b5f895d6bdf56d6ab67d76d0f2b40c3cac8103c671219a1a67b98826159"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/stolen-wish-art.js?v=stolen-wish-art-2",
+          "status": 200,
+          "size": 1834,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "6238b32b5b4a55000502aeef91d32cc6f90cfded89f27c89f0662fd7b72604c0"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/combat-shortcuts.js?v=rules-cards-1",
+          "status": 200,
+          "size": 8657,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "a33f4b62f36624b91892ab594476078ac952c4cb9950149c4ba6a198851909cf"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/combat-rounds.js?v=party-combat-1",
+          "status": 200,
+          "size": 5486,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "b8976f3c8d2614badf481e5cc435af1675a96c92f9a13bad8f38bd86bdb0d4b4"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/site-shell.js?v=site-shell-1",
+          "status": 200,
+          "size": 7978,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "96d3d9b40432909dedd85b73995587c5242a62e2f8bed809fb32c8fdd150d81b"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/live-table-counts.js?v=playability-audit-1",
+          "status": 200,
+          "size": 1247,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "56dcb3cf92f09b8579a8779e38e1ce8bee72f1f523b9ac206233308cf11dc1b5"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/live-session.js?v=live-multiplayer-2",
+          "status": 200,
+          "size": 17516,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "6174bce84d158eccc707a0d722c35e9cce759de4119163360dada3fc6fc557d8"
+        },
+        {
+          "url": "https://cbw29512.github.io/DNDWebTTRPG/live-session-guide.js?v=playability-audit-1",
+          "status": 200,
+          "size": 3701,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "3c09d09b52a5a5588aae503695c80ac8ab7c057ee90626879ff0a0280f9f0da6"
+        }
+      ]
+    },
+    {
+      "id": "oneshot-forge",
+      "title": "One-Shot Forge",
+      "url": "https://99centoneshot.netlify.app/",
+      "status": 200,
+      "final_url": "https://99centoneshot.netlify.app/",
+      "content_type": "text/html; charset=UTF-8",
+      "size": 26342,
+      "page_title": "99\u00a2 One-Shots \u2014 Buy it. Open it. Run it tonight.",
+      "error_shell": false,
+      "elapsed_seconds": 4.99,
+      "assets": [
+        {
+          "url": "https://99centoneshot.netlify.app/styles.css?v=20261006a",
+          "status": 200,
+          "size": 111748,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "5dcc4c974bc1e6d16baf9dbc0de4be741cc7cfa7b0423cc7d5f39b2513aa8ebf"
+        },
+        {
+          "url": "https://99centoneshot.netlify.app/catalog-layout.css?v=20261006a",
+          "status": 200,
+          "size": 2862,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "8ba030e54b20953275a09e744f4c42a0efc0e22bb75b33add390571f363c9dbc"
+        },
+        {
+          "url": "https://99centoneshot.netlify.app/rules.js?v=20260920p",
+          "status": 200,
+          "size": 1408,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "717c7a8c95b7ade28af42852e64b1079dfb9d897ea9fc1b23b304a1560444089"
+        },
+        {
+          "url": "https://99centoneshot.netlify.app/catalog.js?v=20261003a",
+          "status": 200,
+          "size": 5794,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "2090fda3c06c5ccd7c7557487d34a6b1af1ff5ad6e4613dc89c299506e75bdc3"
+        }
+      ]
+    },
+    {
+      "id": "tomeforge",
+      "title": "TomeForge Journal",
+      "url": "https://tomeforge-journal.netlify.app/",
+      "status": 200,
+      "final_url": "https://tomeforge-journal.netlify.app/",
+      "content_type": "text/html; charset=UTF-8",
+      "size": 5790,
+      "page_title": "TomeForge \u2014 Offline 5E-Compatible RPG Journals",
+      "error_shell": false,
+      "elapsed_seconds": 10.4,
+      "assets": [
+        {
+          "url": "https://tomeforge-journal.netlify.app/tomeforge.css",
+          "status": 200,
+          "size": 95675,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "e41f62c890c75fb6d00e675a76ca79bbf756fbfa7774f59e637634eea9808534"
+        },
+        {
+          "url": "https://tomeforge-journal.netlify.app/tomeforge.js",
+          "status": 200,
+          "size": 298481,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "103ce2874e5241424e9ea81b0ebb44e9effb77aedf2325257c0bfbd20b21102d"
+        }
+      ]
+    },
+    {
+      "id": "dinner-dice",
+      "title": "Dinner, Dice & Dragons",
+      "url": "https://dinnerdiceanddragons.netlify.app/",
+      "status": 200,
+      "final_url": "https://dinnerdiceanddragons.netlify.app/",
+      "content_type": "text/html; charset=UTF-8",
+      "size": 10482,
+      "page_title": "Play More D&D Locally | Dinner, Dice & Dragons",
+      "error_shell": false,
+      "elapsed_seconds": 7.84,
+      "assets": [
+        {
+          "url": "https://dinnerdiceanddragons.netlify.app/dashboard.css",
+          "status": 200,
+          "size": 9188,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "bfd4984eaf362f7cdad4f7ad141ad591092cf3e969a78d71744d91129ddd0a4d"
+        },
+        {
+          "url": "https://dinnerdiceanddragons.netlify.app/global-auth-ui.css",
+          "status": 200,
+          "size": 6040,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "c8eb0c2df49a3219da2c51c39471f00f5aeb823961a673cc784299bfbc8ce2af"
+        },
+        {
+          "url": "https://dinnerdiceanddragons.netlify.app/production-config.js",
+          "status": 200,
+          "size": 279,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "fc860ff84b16036ae8125abea99b92c32095cd351ff2db0f66b966dcd8357c6d"
+        },
+        {
+          "url": "https://dinnerdiceanddragons.netlify.app/production-api-client.js",
+          "status": 200,
+          "size": 5899,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "b79414a6be522579b3feb79a629e09253cfe4c9ea53f931597d535e705559713"
+        },
+        {
+          "url": "https://dinnerdiceanddragons.netlify.app/production-session-store.js",
+          "status": 200,
+          "size": 1369,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "231bba4a00f28d85d8ca4e44e25c5e93c5b4dc5264a3894780836db2e41adbcc"
+        },
+        {
+          "url": "https://dinnerdiceanddragons.netlify.app/production-auth.js",
+          "status": 200,
+          "size": 5795,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "928f67ad77b83a418feb851f2b6451206c13fdc50c90af74f695a07b1cf7782f"
+        },
+        {
+          "url": "https://dinnerdiceanddragons.netlify.app/global-auth-ui.js",
+          "status": 200,
+          "size": 13206,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "1bfb3abb33cd33921006d5f6a1ff80060f703ea4be2bcec3c4ef918c36e75cc2"
+        },
+        {
+          "url": "https://dinnerdiceanddragons.netlify.app/api-config.js",
+          "status": 200,
+          "size": 221,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "923cc77335ebb4f9c414ba1c5d728c7d3a40c2345626038ebda510b386e28fb5"
+        },
+        {
+          "url": "https://dinnerdiceanddragons.netlify.app/api-client.js",
+          "status": 200,
+          "size": 1667,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "1c3e487d78e0263c69d0102199b4615a16e4e2994bcaaf992d2e7c803598700b"
+        },
+        {
+          "url": "https://dinnerdiceanddragons.netlify.app/shared-registration.js",
+          "status": 200,
+          "size": 1920,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "9e023cf5cf046439a509765750bb53dcb3d2462d9f8715b8e26020c093d5a1c3"
+        },
+        {
+          "url": "https://dinnerdiceanddragons.netlify.app/shared-games.js",
+          "status": 200,
+          "size": 1775,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "7f2b0669866243c11451958efd60126c2f59fe62b95750cfbbd7c2072126d4a9"
+        }
+      ]
+    },
+    {
+      "id": "guild",
+      "title": "Light Tower Guild",
+      "url": "https://lighttowertabletopguild.netlify.app/",
+      "status": 200,
+      "final_url": "https://lighttowertabletopguild.netlify.app/",
+      "content_type": "text/html; charset=UTF-8",
+      "size": 8030,
+      "page_title": "Light Tower Table Top Guild | Free D&D Tools, Adventures & Real Tables",
+      "error_shell": false,
+      "elapsed_seconds": 8.41,
+      "assets": [
+        {
+          "url": "https://lighttowertabletopguild.netlify.app/assets/css/dist/home.50f38339216b.css",
+          "status": 200,
+          "size": 30913,
+          "type": "text/css; charset=UTF-8",
+          "sha256": "f925063ff8cf511df11ddc6dbf805120abc72c3b7c74486dfc696d2659f1ab7f"
+        },
+        {
+          "url": "https://lighttowertabletopguild.netlify.app/assets/js/site.js",
+          "status": 200,
+          "size": 1970,
+          "type": "application/javascript; charset=UTF-8",
+          "sha256": "7712cf458835e2b6ea32bcb0920dca651891ac6f8d3c494d6c450813c7cb390e"
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "title": "Learn to Play TTRPG",
+      "url": "https://cbw29512.github.io/L2PTTRPG/",
+      "status": 200,
+      "final_url": "https://cbw29512.github.io/L2PTTRPG/",
+      "content_type": "text/html; charset=utf-8",
+      "size": 1145,
+      "page_title": "Ember & Stone \u2014 Learn D&D",
+      "error_shell": false,
+      "elapsed_seconds": 10.06,
+      "assets": [
+        {
+          "url": "https://cbw29512.github.io/L2PTTRPG/styles.css",
+          "status": 200,
+          "size": 9248,
+          "type": "text/css; charset=utf-8",
+          "sha256": "054ef0b4efca3faa3c16dd061f848cd9f97788a994ad2b39bb14df2caed53cb9"
+        },
+        {
+          "url": "https://cbw29512.github.io/L2PTTRPG/system-badges.css",
+          "status": 200,
+          "size": 4480,
+          "type": "text/css; charset=utf-8",
+          "sha256": "d78f455b6a33d963e7299e3aa8d3798ce68cca7a73b4d9b2f4e5eae544b6e1b6"
+        },
+        {
+          "url": "https://cbw29512.github.io/L2PTTRPG/src/app.js",
+          "status": 200,
+          "size": 5200,
+          "type": "application/javascript; charset=utf-8",
+          "sha256": "852718d6a9ae7059131ae4e9b542469e18096aac8d271b5807fd5590da1780bc"
+        }
+      ]
+    }
+  ]
+}
