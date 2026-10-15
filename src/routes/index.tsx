@@ -1,192 +1,52 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowUpRight } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { BATCH_MARKS, markTone, useBatchStore, useHydrated } from "@/lib/batch-store";
-import {
-  HUB_APPS,
-  grouped,
-  liveApps,
-  repoOnlyApps,
-  workbenchApps,
-  type HubApp,
-} from "@/lib/hub";
+import { createFileRoute } from "@tanstack/react-router";
+import { useState } from "react";
+import { Search, X } from "lucide-react";
+import { ToolkitHero } from "@/components/toolkit-hero";
+import { ToolkitCard } from "@/components/toolkit-card";
+import { ToolkitWorkbench } from "@/components/toolkit-workbench";
+import { ToolkitSources } from "@/components/toolkit-sources";
+import { ToolkitAudit } from "@/components/toolkit-audit";
+import { TOOLKIT_PROJECTS, filterProjects } from "@/lib/toolkit-projects";
+import { TOOLKIT_CATEGORIES, type ToolkitCategory } from "@/lib/toolkit-schema";
 import { BMC_URL } from "@/lib/money";
+import "@/styles/toolkit.css";
 
 export const Route = createFileRoute("/")({ component: HubHome });
 
 function HubHome() {
-  const live = liveApps();
-  const bench = workbenchApps();
-  const repos = repoOnlyApps();
-  const marks = useBatchStore((s) => s.marks);
-  const ready = useHydrated();
-  const done = ready ? live.filter((a) => marks[a.slug]).length : 0;
-  const next = (ready ? live.find((a) => !marks[a.slug]) : live[0]) ?? live[0];
-  const pct = live.length ? Math.round((done / live.length) * 100) : 0;
-
+  // Filters are temporary presentation state. Existing tool saves remain independent.
+  const [query, setQuery] = useState("");
+  const [category, setCategory] = useState<ToolkitCategory | "all">("all");
+  const projects = filterProjects(query, category);
   return (
-    <div className="space-y-14">
-      <section className="max-w-2xl">
-        <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-subtle">
-          One link for every D&D site
-        </p>
-        <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight md:text-5xl">
-          The D&D door.
-        </h1>
-        <p className="mt-4 text-muted">
-          Open a live site, come back, mark it, next. Families sit together so duplicates are
-          obvious. Nothing here that is not D&D.
-        </p>
-        <dl className="mt-6 grid grid-cols-3 gap-3 max-w-md">
-          <Stat n={live.length} label="Live sites" />
-          <Stat n={repos.length} label="Repos only" />
-          <Stat n={bench.length} label="On this hub" />
-        </dl>
-        <div className="mt-5 h-1.5 overflow-hidden rounded-full bg-raised" aria-hidden>
-          <div className="h-full bg-accent transition-[width] duration-300" style={{ width: `${pct}%` }} />
+    <div className="toolkit-home">
+      <ToolkitHero count={TOOLKIT_PROJECTS.length} />
+      <section id="toolkit" className="toolkit-directory" aria-labelledby="directory-title">
+        <div className="toolkit-directory-heading"><div><p className="toolkit-eyebrow">EVERYTHING HAS ITS PLACE</p><h2 id="directory-title">What are we doing today?</h2></div>
+          <span className="toolkit-directory-note">One home. Your favorite tools.</span></div>
+        <div className="toolkit-controls">
+          <div className="toolkit-filter-tabs" role="group" aria-label="Filter tools by task">
+            <button type="button" onClick={() => setCategory("all")} aria-pressed={category === "all"}>All tools <span>{TOOLKIT_PROJECTS.length}</span></button>
+            {TOOLKIT_CATEGORIES.map((item) => <button type="button" key={item.id} aria-pressed={category === item.id} onClick={() => setCategory(item.id)}>{({ play: "Play", prepare: "Prepare", create: "Create", community: "Community" })[item.id]}</button>)}
+          </div>
+          <label className="toolkit-search"><Search size={17} aria-hidden="true" /><span className="sr-only">Search tools</span><input type="search" placeholder="Find a tool…" value={query} onChange={(event) => setQuery(event.target.value)} />{query && <button type="button" aria-label="Clear search" onClick={() => setQuery("")}><X size={15} /></button>}</label>
         </div>
-        <p className="mt-2 text-sm text-subtle">
-          Batch {done}/{live.length} marked
-        </p>
-        <div className="mt-6 flex flex-wrap gap-2">
-          {next ? (
-            <Button asChild>
-              <Link to="/batch/$slug" params={{ slug: next.slug }}>
-                {done === 0 ? "Start the batch" : "Continue the batch"}
-              </Link>
-            </Button>
-          ) : null}
-          <Button variant="secondary" asChild>
-            <a href="#live">Jump to live sites</a>
-          </Button>
-        </div>
+        <p className="sr-only" role="status" aria-live="polite">{projects.length} {projects.length === 1 ? "project" : "projects"} shown</p>
+        {TOOLKIT_CATEGORIES.map((group) => {
+          const members = projects.filter((project) => project.category === group.id);
+          if (!members.length) return null;
+          return <section key={group.id} className={`toolkit-group category-${group.id}`} aria-labelledby={`group-${group.id}`}>
+            <div className="toolkit-group-heading"><h2 id={`group-${group.id}`}>{group.title}<span>{members.length.toString().padStart(2, "0")}</span></h2><p>{group.description}</p></div>
+            <div className="toolkit-grid">{members.map((project) => <ToolkitCard key={project.id} project={project} />)}</div>
+          </section>;
+        })}
+        {!projects.length && <div className="toolkit-empty"><Search size={28} aria-hidden="true" /><h3>No tools found</h3><p>Try a name like “cards,” “map,” or “journal.”</p><button type="button" onClick={() => { setQuery(""); setCategory("all"); }}>Show all tools</button></div>}
+        <p className="toolkit-boundary">Linked tools open in a new tab and keep their own saves. “Project source” entries need setup or further work. Iron Pit is reserved as a placeholder.</p>
       </section>
-
-      <nav aria-label="On this page" className="flex flex-wrap gap-2 text-sm">
-        <a href="#live" className="text-muted underline decoration-border underline-offset-4">
-          Live
-        </a>
-        <a href="#repos" className="text-muted underline decoration-border underline-offset-4">
-          Repos
-        </a>
-        <a href="#workbench" className="text-muted underline decoration-border underline-offset-4">
-          Workbench
-        </a>
-      </nav>
-
-      <section id="live" className="scroll-mt-20 space-y-8">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">Live sites</h2>
-        {grouped(live).map((family) => (
-          <div key={family.group} className="space-y-3">
-            <h3 className="text-[11px] font-medium uppercase tracking-[0.2em] text-subtle">
-              {family.group}
-              {family.apps.length > 1 ? ` · ${family.apps.length} doors` : ""}
-            </h3>
-            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {family.apps.map((app) => (
-                <SiteCard
-                  key={app.slug}
-                  app={app}
-                  index={live.findIndex((a) => a.slug === app.slug) + 1}
-                  mark={ready ? marks[app.slug] : undefined}
-                />
-              ))}
-            </div>
-          </div>
-        ))}
-      </section>
-
-      <section id="repos" className="scroll-mt-20 space-y-8">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">Repos with no live site</h2>
-        {grouped(repos).map((family) => (
-          <div key={family.group} className="space-y-3">
-            <h3 className="text-[11px] font-medium uppercase tracking-[0.2em] text-subtle">{family.group}</h3>
-            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {family.apps.map((app) => (
-                <RepoCard key={app.slug} app={app} />
-              ))}
-            </div>
-          </div>
-        ))}
-      </section>
-
-      <section id="workbench" className="scroll-mt-20 space-y-4">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">Workbench on this hub</h2>
-        <p className="text-sm text-muted">Folded here so a “fold in” mark has a place to land.</p>
-        {grouped(bench).map((family) => (
-          <div key={family.group}>
-            <h3 className="text-[11px] font-medium uppercase tracking-[0.2em] text-subtle">{family.group}</h3>
-            <div className="mt-2 flex flex-wrap gap-2">
-              {family.apps.map((app) => (
-                <Button key={app.slug} variant="secondary" asChild>
-                  <Link to={app.to!}>{app.title}</Link>
-                </Button>
-              ))}
-            </div>
-          </div>
-        ))}
-      </section>
-
-      <p className="text-xs text-subtle">
-        {HUB_APPS.length} D&D doors listed. Not Wizards of the Coast.{" "}
-        <a href={BMC_URL} className="text-muted underline decoration-border underline-offset-4">
-          Buy Me a Coffee
-        </a>
-      </p>
+      <ToolkitWorkbench />
+      <ToolkitAudit />
+      <ToolkitSources />
+      <footer className="toolkit-footer"><div><strong>Made for the stories you haven't told yet.</strong><p>An independent, unofficial D&D toolkit. Not affiliated with Wizards of the Coast.</p></div><a href={BMC_URL} target="_blank" rel="noopener noreferrer">Support the toolkit ↗</a></footer>
     </div>
-  );
-}
-
-function Stat({ n, label }: { n: number; label: string }) {
-  return (
-    <div className="rounded-[var(--radius-md)] border border-border bg-surface px-3 py-3">
-      <dt className="text-[11px] uppercase tracking-wide text-subtle">{label}</dt>
-      <dd className="mt-1 font-display text-2xl font-semibold tabular-nums">{n}</dd>
-    </div>
-  );
-}
-
-function SiteCard({ app, index, mark }: { app: HubApp; index: number; mark?: string }) {
-  const markLabel = BATCH_MARKS.find((m) => m.key === mark)?.label;
-  return (
-    <article className="flex flex-col rounded-[var(--radius-xl)] border border-border bg-surface p-5 shadow-[var(--shadow-panel)]">
-      <div className="flex items-start justify-between gap-2">
-        <span className="font-mono text-xs tabular-nums text-subtle">{String(index).padStart(2, "0")}</span>
-        <Badge tone={markTone(mark)}>{markLabel ?? "Unmarked"}</Badge>
-      </div>
-      <h4 className="mt-4 font-display text-xl font-semibold tracking-tight text-fg">{app.title}</h4>
-      <p className="mt-2 flex-1 text-sm text-muted">{app.blurb}</p>
-      <div className="mt-5 flex flex-wrap gap-2">
-        <Button size="sm" asChild>
-          <Link to="/batch/$slug" params={{ slug: app.slug }}>
-            Review
-          </Link>
-        </Button>
-        <Button size="sm" variant="ghost" asChild>
-          <a href={app.live} rel="noreferrer">
-            Open site
-            <ArrowUpRight className="size-3.5" />
-          </a>
-        </Button>
-      </div>
-    </article>
-  );
-}
-
-function RepoCard({ app }: { app: HubApp }) {
-  return (
-    <a
-      href={app.repo}
-      rel="noreferrer"
-      className="block rounded-[var(--radius-xl)] border border-border bg-surface p-5 no-underline shadow-[var(--shadow-panel)] transition-colors hover:border-muted"
-    >
-      <div className="flex items-start justify-between gap-2">
-        <Badge>Repo</Badge>
-        <ArrowUpRight className="size-4 text-subtle" />
-      </div>
-      <h4 className="mt-4 font-display text-xl font-semibold tracking-tight text-fg">{app.title}</h4>
-      <p className="mt-2 text-sm text-muted">{app.blurb}</p>
-    </a>
   );
 }

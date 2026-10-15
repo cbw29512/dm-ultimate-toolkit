@@ -1,0 +1,290 @@
+{
+  "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+  "scope": "14 linked public sites; Iron Pit excluded; full end-to-end audits remain open",
+  "delivery": {
+    "pages": 14,
+    "http200": 14,
+    "initialAssets": 127,
+    "assetFailures": 0
+  },
+  "projects": [
+    {
+      "id": "combat-companion",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 4,
+      "assetFailures": [],
+      "workflow": "browser-tested",
+      "fullAuditCompleted": false,
+      "evidence": "26 source checks pass again. Earlier selected live flows cover independent monster state, edition retention, reload, concentration, regeneration and ammunition.",
+      "nextStep": "Audit homebrew backups, rapid touch input, mobile layouts, and remaining accessibility paths."
+    },
+    {
+      "id": "blocks",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 2,
+      "assetFailures": [],
+      "workflow": "browser-tested",
+      "fullAuditCompleted": false,
+      "evidence": "84 tests, typecheck and build pass. Live 30 × 20 × 10 ft room placement created 24 wall stacks; Undo removed them, Redo restored them, and reload retained them. PR #90 repaired Inspect tests and reproducible installs.",
+      "nextStep": "Audit creature movement, player control, secret/reveal safety, backups, mobile and print paths."
+    },
+    {
+      "id": "dice",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 7,
+      "assetFailures": [],
+      "workflow": "browser-tested",
+      "fullAuditCompleted": false,
+      "evidence": "Existing contract-check suite and build pass. A live d20 roll completed, appeared in history and retained its saved-history count after reload.",
+      "nextStep": "Check ADV/DIS, shortcuts, offline behavior and customization; verify the repaired header link after deployment."
+    },
+    {
+      "id": "healing",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 7,
+      "assetFailures": [],
+      "workflow": "blocked",
+      "fullAuditCompleted": false,
+      "evidence": "26 source tests pass. Fixed the live recursive campaign-store event loop and returning-browser cache path in PRs #5/#6. Host healing and saved charge use survive reload. Player join still stays on Connecting in this browser, without a confirmed cause.",
+      "nextStep": "Diagnose and bound the player connection; verify multi-client charge use, host permissions, reconnect and scroll paths."
+    },
+    {
+      "id": "character-forge",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 13,
+      "assetFailures": [],
+      "workflow": "browser-tested",
+      "fullAuditCompleted": false,
+      "evidence": "954 tests and all CI browser/print gates pass. A live 2014 level-3 Fighter saved and reopened with matching name, edition, HP and AC. PRs #154/#155 are live: returning browsers load versioned modules, show accurate Random guidance, and generate a validated 2024 character.",
+      "nextStep": "Audit remaining classes and editions, recovery and actual printed output beyond the passing browser-print gate."
+    },
+    {
+      "id": "dm-forge",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 1,
+      "assetFailures": [],
+      "workflow": "browser-tested",
+      "fullAuditCompleted": false,
+      "evidence": "105 tests and all CI gates pass. Live verified-catalog Goblin encounter saved, reloaded and reached Session Console with AC 15/HP 7. PRs #14/#15 repair feedback and OneShot links.",
+      "nextStep": "Audit NPC, loot, item and backup handoffs, player-safe remote display, mobile and print paths."
+    },
+    {
+      "id": "rules-cards",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 2,
+      "assetFailures": [],
+      "workflow": "browser-tested",
+      "fullAuditCompleted": false,
+      "evidence": "783 tests, typecheck and build pass. Live compendium search, 2014 filtering and level-3 Magic Missile scaling were checked.",
+      "nextStep": "Verify executable-card outcomes, export/recovery and print overflow; review the large client bundle."
+    },
+    {
+      "id": "dungeon-cards",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 15,
+      "assetFailures": [],
+      "workflow": "browser-tested",
+      "fullAuditCompleted": false,
+      "evidence": "14 regression scripts and 1,447-card validation pass. The live starter loads, a revealed location shows only player information in preview, and room 2 resumes after reload. PR #5 repairs OneShot navigation.",
+      "nextStep": "Finish a full adventure, verify independent players, resources, imports/exports and printed cards."
+    },
+    {
+      "id": "living-table",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 54,
+      "assetFailures": [],
+      "workflow": "browser-tested",
+      "fullAuditCompleted": false,
+      "evidence": "51 regression files and CI browser checks pass. Live Adventure Master loading, scene 2 progression, Save and scene recovery after reload pass. PR #112 repairs OneShot navigation.",
+      "nextStep": "Audit the full scene graph, exact card/quest recovery, player-private output and remote reconnect."
+    },
+    {
+      "id": "oneshot-forge",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 4,
+      "assetFailures": [],
+      "workflow": "blocked",
+      "fullAuditCompleted": false,
+      "evidence": "The live free starter supports clue discovery, authored branch selection and stage-2 recovery after reload. Draft PR #109 fixes the contact 404 and storefront/data drift; its full CI passes, but release merging is reserved for Chris.",
+      "nextStep": "Release-review PR #109, verify the contact repair, and complete adventure, content-continuity, export and print acceptance."
+    },
+    {
+      "id": "tomeforge",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 2,
+      "assetFailures": [],
+      "workflow": "browser-tested",
+      "fullAuditCompleted": false,
+      "evidence": "Source scripts pass. Live GM tome creation, binding lock, writable session record and exact note recovery after reload/reopen pass.",
+      "nextStep": "Verify backup/restore, offline resume, player-class tomes and mobile layouts."
+    },
+    {
+      "id": "dinner-dice",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 11,
+      "assetFailures": [],
+      "workflow": "blocked",
+      "fullAuditCompleted": false,
+      "evidence": "Production artifact build passes. Live public table discovery and onboarding system/time-window controls load. No table, registration, booking or message was submitted; signed-in matching acceptance remains open.",
+      "nextStep": "Use an authorized acceptance account to check saved roles, matching, table formation, booking and game hubs."
+    },
+    {
+      "id": "guild",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 2,
+      "assetFailures": [],
+      "workflow": "browser-tested",
+      "fullAuditCompleted": false,
+      "evidence": "Fixed clean-route asset paths, a shell-build syntax error and unsupported slash redirects. Source/production checks cover 19 URL variants; Lighthouse CI passes. PR #31 is live; initiative, attack and save sequence works.",
+      "nextStep": "Verify intake validation/delivery, organizer permissions, learning persistence and responsive layouts."
+    },
+    {
+      "id": "learn",
+      "checkedAt": "2026-10-15T19:43:38.107546+00:00",
+      "httpStatus": 200,
+      "assetCount": 3,
+      "assetFailures": [],
+      "workflow": "browser-tested",
+      "fullAuditCompleted": false,
+      "evidence": "Existing source tests pass. Live lesson routing, a d6 roll, and explicit saving-throw pass/fail examples work; a total equal to DC passes.",
+      "nextStep": "Audit remaining lessons, persistence, mobile/keyboard behavior and edition labels; Iron Pit practice remains excluded."
+    }
+  ],
+  "sourceOnly": [
+    {
+      "repository": "DNDcellphonehelper",
+      "result": "9 Python tests and secure raw-dice test script pass; physical display/ESP32 not checked"
+    },
+    {
+      "repository": "CharacterForge",
+      "result": "63 Node/Netlify contract tests pass; production provisioning and Flask reference suite remain open"
+    },
+    {
+      "repository": "blackinkbestiary",
+      "result": "449 Python tests pass; GPU generation, exact-image approval and production deployment not tested"
+    },
+    {
+      "repository": "tabletop-scribe",
+      "result": "README reviewed: local recorder/transcription pipeline; runtime not audited"
+    },
+    {
+      "repository": "black-anvil-tavern",
+      "result": "README reviewed: FastAPI MVP; runtime and deployment not audited"
+    },
+    {
+      "repository": "DNDLanguageTranslator",
+      "result": "README reviewed: specification-stage project; no claimed live tool"
+    }
+  ],
+  "repairs": [
+    {
+      "repository": "FlorenceRPGWebsite",
+      "prs": [
+        31
+      ],
+      "status": "merged and live",
+      "commit": "31ec6d0fc96abfa016ad08ba1202410b08546b43"
+    },
+    {
+      "repository": "DNDblocksbattlemaps",
+      "prs": [
+        90
+      ],
+      "status": "merged; Pages build/deploy passed",
+      "commit": "6bd7e852507763e1245ccc3566b91c9dd127e55b"
+    },
+    {
+      "repository": "monstercardforge",
+      "prs": [
+        14,
+        15
+      ],
+      "status": "merged; three CI gates and Pages deploy passed",
+      "commit": "e6bef01b8f0ec045d7597c47951dc23e899150f0"
+    },
+    {
+      "repository": "nothingbutadiceroller",
+      "prs": [
+        50
+      ],
+      "status": "merged after full build, CodeQL and live deploy-preview acceptance",
+      "commit": "e72a1c222dda538ccbd6b605cc8aa49c7f5ad494"
+    },
+    {
+      "repository": "DNDCards",
+      "prs": [
+        5
+      ],
+      "status": "merged after test/build",
+      "commit": "aaab04a4ead4da2ad4516d0ddf06bfe315779c40"
+    },
+    {
+      "repository": "DNDWebTTRPG",
+      "prs": [
+        112
+      ],
+      "status": "merged after source and browser gates",
+      "commit": "51e0e891d9d195eb517c079a787a25a7d7f51774"
+    },
+    {
+      "repository": "healingbox",
+      "prs": [
+        5,
+        6
+      ],
+      "status": "merged and live; host recovery checked; player join remains blocked in audit browser",
+      "commit": "d9bf13ce3fd2bd01ce263e12c88c89bd76dd5400"
+    },
+    {
+      "repository": "dnd-character-forge",
+      "prs": [
+        154,
+        155
+      ],
+      "status": "merged and live; full CI including browser-print passed; returning browser guidance and 2024 generation verified",
+      "commit": "4b5b359671bbf4d4e0a0ae29ebacaeca98cfc475",
+      "deployId": "6ad12c181cbc772af9cad3bd",
+      "assetRevision": "05a43c07fecf583e"
+    },
+    {
+      "repository": "oneshot-forge",
+      "prs": [
+        109
+      ],
+      "status": "draft release branch; full validation passed; owner release pending",
+      "commit": "3a33d105b3750f50f4956488055f254dc0f5f502"
+    }
+  ],
+  "limits": [
+    "HTTP/asset checks do not certify dynamic chunks, APIs or authentication.",
+    "Source tests are not browser, physical hardware, mobile, print or rules-completeness certification.",
+    "Source-only projects are retained separately; no unique feature/data or repository was deleted.",
+    "Hub focused checks are separate from the known 16-failure legacy scaffold suite."
+  ],
+  "linkScan": {
+    "references": 2315,
+    "uniqueUrls": 401,
+    "known404": [
+      "https://github.com/cbw29512/oneshot-forge/issues"
+    ],
+    "method": "One-hop requests reconciled against final deployed homepage HTML; cached unchanged destinations from this audit batch. Dynamic browser resources are outside this scan.",
+    "earlierPass": {
+      "references": 2549,
+      "uniqueUrls": 457,
+      "note": "Before final Character Forge release versioning; current references exclude replaced resource URLs."
+    }
+  }
+}

@@ -2,7 +2,7 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import type { CombatantTemplate } from "@/lib/combat";
 import type { Dungeon } from "@/lib/maps";
-import type { Hoard } from "@/lib/cards";
+import type { Hoard } from "@/lib/legacy-workbench-schema";
 import { CHARGE_MAX } from "@/lib/heal";
 
 export type TomeEntry = {
